@@ -29,14 +29,20 @@ div.topnav {
   display: inline-block;
 }
 
+a:hover li.headerlist {
+  background: steelblue;
+  color: orange;
+  box-shadow: blue;
+}
+
 hr.invis {
   border: 1px solid transparent;
   margin-bottom: 50px;
 }
 
 div.column {
-  float: left;
   width: 45%;
+  margin: auto;
   border-color: cyan;
   border-radius: 15px;
   border-style: solid;
@@ -44,19 +50,31 @@ div.column {
   background: rgba(50, 200, 160, 0.5);
 }
 
-div.column2 {
-  float: right;
-  width: 45%;
-  border-color: cyan;
+  div.columncontainer {
+  background: rgba(50, 50, 100, 0.1);
+  box-shadow: 2px 2px rgba(10, 10, 20, 0.3);
+  padding: 6px;
+  border-radius: 15px;
+  border: dashed 1px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+}
+
+div.bottominfo {
+  text-align: center;
+  padding: 2px;
+  background: darkcyan;
+  box-shadow: 2px 2px cadetblue;
+  border-color: lime;
   border-radius: 15px;
   border-style: solid;
-  box-shadow: 4px 4px rgba(150, 200, 255, 0.3);
-  background: rgba(50, 200, 160, 0.5);
 }
 
 li.headerlist {
   display: inline-block;
   font-size: 20px;
+  color: black;
   background: rgba(50, 205, 255, 0.3);
   box-shadow: 2px 2px rgba(40, 220, 255, 0.5);
   padding: 8px;
@@ -69,11 +87,13 @@ header h1 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 60px;
+  font-weight: lighter;
   color: grey;
-  text-shadow: 1px 1px aliceblue;
+  text-shadow: 1px 1px darkslategrey;
 }
 
 h2 {
   color: darkslategrey;
   text-shadow: 1px 1px grey;
+  text-decoration: 2px underline black;
 }
