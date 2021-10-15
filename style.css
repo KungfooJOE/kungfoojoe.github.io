@@ -74,7 +74,7 @@ a:hover li.headerlist {
 div.column {
   display: inline-block;
   margin: 10px;
-  width: 400px;
+  width: 45%;
   border-color: rgb(160, 140, 255);
   border-radius: 15px;
   border-style: solid;
@@ -167,4 +167,11 @@ section.info {
 p.copyright {
   color: rgba(0, 0, 0, 0.5);
   font-variant: small-caps;
+}
+
+/*IMAGES*/
+
+img.landchadbanner {
+  vertical-align: top;
+  padding: 5px;
 }
