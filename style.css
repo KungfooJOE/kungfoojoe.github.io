@@ -105,6 +105,10 @@ code {
   color: lime;
 }
 
+a.codelink {
+  color: lime;
+}
+
 li.headerlist {
   display: inline-block;
   font-size: 20px;
@@ -172,6 +176,6 @@ p.copyright {
 /*IMAGES*/
 
 img.landchadbanner {
-  vertical-align: top;
+  margin-top: 5px;
   padding: 5px;
 }
